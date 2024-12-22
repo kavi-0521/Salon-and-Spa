@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon and Spa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="kavi-project">
+        <!--nav bar-->
+        <header class="header">
+            <div class="headercontent">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="logo.jpg" alt="logo">
+                        <span class="brand-name">Lush Life</span>
+                    </div>
+                    <div class="nav-links">
+                        <a href="#home"> HOME </a>
+                        <a href="#aboutus"> ABOUT US </a>
+                        <a href="#offersandpackages"> OFFERS AND PACKAGES </a>
+                        <a href="#services"> SERVICES </a>
+                        <a href="#contact"> CONTACT </a>
+                        <a href="#login"> LOGIN </a>
+                        <a href="#booking"> BOOKING </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class="home" id="home">
+            <div class="image">
+                <img src="home1.png" alt="girl" style="height: 700px; width: 1000px;">
+            </div>
+            <div class="home-content">
+                <div class="first-content">
+                    <h1>Lush Life</h1>
+                    <h4> salon at your doorstep!</h4><br><br>
+                </div>
+                <h3>Welcome to <cite>Lush Life</cite> – Where Beauty Meets Serenity</h3><br><br>
+                <p>Step into a world of calm, where modern elegance meets holistic wellness. Our state-of-the-art facilities, combined with the finest products and techniques, ensure you leave feeling refreshed, revitalized, and radiant. We are committed to enhancing your natural beauty and well-being, so you can look and feel your best.</p><br><br>
+                <div class="button">
+                    <button style="background-color: black; color: white;" class="button-space button1">LOGIN</button>
+                    <button style="background-color: black; color: white;" class="button-space">GET SERVICES</button>
+                </div>
+            </div>
+        </section>
+        
+        <!--About Us-->
+        <section class="aboutus" id="aboutus">
+            <div class="left-section">
+                <div class="aboutus-top">
+                    <h1>More about Lush Life..</h1><br><br>
+                </div>
+                <div class="reason-lushlife">
+                    <div class="reason-lushlife1">
+                        <h2>Why Lush Life?</h2>
+                    </div><br>
+                    <div class="reason-lushlife2">
+                        <div class="reason-item">
+                            <i class="fa-regular fa-circle-check"></i> Best Brands in 1-time use packs.
+                        </div><br><br>
+                        <div class="reason-item">
+                            <i class="fa-regular fa-circle-check"></i> Trained, verified beauticians.
+                        </div><br><br>
+                        <div class="reason-item">
+                            <i class="fa-regular fa-circle-check"></i> Mess-free services.
+                        </div>
+                    </div>
+                </div><br><br><div class="con">
+                <p style="line-height: 1.5; font-family: 'Times New Roman', Times, serif; font-size: large;">At Lush Life, we invite you to indulge in a luxurious experience where your beauty and well-being are our top priority. Our salon and spa offer a wide range of services, from rejuvenating facials and relaxing massages to expert hair styling, manicures, and more. Whether you’re looking for a complete makeover or just a moment of relaxation, our team of skilled professionals is here to pamper you with personalized care in a tranquil and soothing environment.</p></div><br><br>
+                <div class="button2">
+                    <button style="background-color: black; color: white; padding: 10px; border-radius: 15px;" type="services">GET SERVICE</button>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="parlourakka.jpg" alt="spa">
+            </div>
+        </section>
+        
+        <!--Offers and Packages-->
+        <section class="services" id="offers">
+            <h2>Our Spa Services</h2>
+            <div class="slider">
+                <div class="slides" id="slides">
+                    <!-- Slide 1 -->
+                    <div class="slide">
+                        <img src="keratinimage.jpg" alt="Spa Service 1">
+                        <div class="service-info">
+                            <span class="offer-badge">45% OFF</span>
+                            <h3>Keratin Treatment</h3>
+                            <p class="price"> Starting at ₹ 3999 <span class="original-price">₹ 5999</span></p>
+                            <button class="add-to-cart" data-service="Keratin Treatment" data-price="3999">Add to Cart</button>
+                        </div>
+                    </div>
+        
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <img src="roottouchup.webp" alt="Spa Service 2">
+                        <div class="service-info">
+                            <span class="service-info">40% OFF</span>
+                            <h3>Root Touchup Treatment</h3>
+                            <p class="price">Starting at ₹ 3699 <span class="original-price">₹ 5599</span></p>
+                            <button class="add-to-cart" data-service="Root Touchup Treatment" data-price="3699">Add to Cart</button>
+                        </div>
+                    </div>
+        
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <img src="antiagingimage.jpg" alt="Spa Service 3">
+                        <div class="service-info">
+                            <span class="Anti-Aging Treatment">30% OFF</span>
+                            <h3>Anti-Aging Treatment</h3>
+                            <p class="price">Starting at ₹ 2999 <span class="original-price">₹ 3499</span></p>
+                            <button class="add-to-cart" data-service="Anti-Aging Treatment" data-price="2999">Add to Cart</button>
+                        </div>
+                    </div>
+        
+                    <!-- Slide 4 -->
+                    <div class="slide">
+                        <img src="casmaragojiimage.jpg" alt="Spa Service 4">
+                        <div class="service-info">
+                            <span class="offer-badge">30% OFF</span>
+                            <h3>Casmara Goji Treatment </h3>
+                            <p class="price"> Starting at ₹ 4299 <span class="original-price">₹ 5299</span></p>
+                            <button class="add-to-cart" data-service="Casmara Goji Treatment" data-price="4299">Add to Cart</button>
+                        </div>
+                    </div>
+        
+                    <!-- Slide 5 -->
+                    <div class="slide">
+                        <img src="hairspa.avif" alt="Spa Service 5">
+                        <div class="service-info">
+                            <span class="offer-badge">20% OFF</span>
+                            <h3>Hair Spa</h3>1499 <span class="original-price">₹ 1999</span></p>
+                            <button class="add-to-cart" data-service="Hair Spa" data-price="1499">Add to Cart</button>
+                        </div>
+                    </div>
+        
+                    <!-- Slide 6 -->
+                    <div class="slide">
+                        <img src="detanimages.jpeg" alt="Spa Service 6">
+                        <div class="service-info">
+                            <span class="offer-badge">15% OFF</span>
+                            <h3>Detan </h3>
+                            <p class="price">Staring at ₹ 999 <span class="original-price">₹ 1499</span></p>
+                            <button class="add-to-cart" data-service="Detan" data-price="999">Add to Cart</button>
+                        </div>
+                    </div>
+        
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </section>
+        <section class="grid-layout" id="services">
+            <h2>Explore Our Services</h2>
+            <div class="circle-grid">
+                <div class="circle-item">
+                    <img src="facial.jpeg" alt="Facial">
+                    <p>Facial</p>
+                </div>
+                <div class="circle-item">
+                    <img src="cleanup.jpeg" alt="Cleanup">
+                    <p>Clean Up</p>
+                </div>
+                <div class="circle-item">
+                    <img src="bleach.jpeg" alt="Bleach">
+                    <p>Bleach</p>
+                </div>
+                <div class="circle-item">
+                    <img src="detan.jpg" alt="detan">
+                    <p>De-Tan</p>
+                </div>
+                <div class="circle-item">
+                    <img src="waxing.webp" alt="waxing">
+                    <p>Waxing</p>
+                </div>
+                <div class="circle-item">
+                    <img src="manipedi.jpeg" alt="mani&pedi">
+                    <p>Mani & Pedi</p>
+                </div>
+                <div class="circle-item">
+                    <img src="haircare.jpg" alt="haircare">
+                    <p>Hair care</p>
+                </div>
+                <div class="circle-item">
+                    <img src="bodypolishing.webp" alt="bodypolishing">
+                    <p>Body Polishing</p>
+                </div>
+                <div class="circle-item">
+                    <img src="bodymassage.jpeg" alt="bodymassage">
+                    <p>Body Massage</p>
+                </div>
+                <div class="circle-item">
+                    <img src="makeup.jpeg" alt="Make UP">
+                    <p>Make UP</p>
+                </div>
+                <div class="circle-item">
+                    <img src="nailart.jpg" alt="nailart">
+                    <p>Nail Art</p>
+                </div>
+                <div class="circle-item">
+                    <img src="prebridal.webp" alt="prebridal">
+                    <p>PreBridal</p>
+                </div>
+                <div class="circle-item">
+                    <img src="threading.jpg" alt="Threading">
+                    <p>Threading</p>
+                </div>
+                <div class="circle-item">
+                    <img src="haircut.jpg" alt="haircut">
+                    <p>Hair cut</p>
+                </div>
+            </div>
+        </section><br><br><br>
+
+        <section class="grid-layout" id="spa-services-grid">
+            <h2>Explore Our Services </h2>
+            <div class="length-grid">
+                <!-- Package Deals -->
+                <div class="length-item">
+                    <img src="pic.jpg" alt="Package Deals" class="length-img">
+                    <div class="service-info">
+                        <p>MAKE YOUR PACKAGE</p>
+                        <p class="discount-text">Save 55%</p>
+                        <button class="add-to-cart" data-service="Package Deals" data-price="999">
+                            <i class="fas fa-shopping-cart"></i> <!-- Cart icon -->
+                        </button>
+                    </div>
+                </div>
+        
+                <!-- Hair Care -->
+                <div class="length-item">
+                    <img src="pic.jpg" alt="Hair Care" class="length-img">
+                    <div class="service-info">
+                        <p>Hair Care</p>
+                        <button class="add-to-cart" data-service="Hair Care" data-price="799">
+                            <i class="fas fa-shopping-cart"></i> <!-- Cart icon -->
+                        </button>
+                    </div>
+                </div>
+        
+                <!-- Facial -->
+                <div class="length-item">
+                    <img src="pic.jpg" alt="Facial" class="length-img">
+                    <div class="service-info">
+                        <p>Facial</p>
+                        <button class="add-to-cart" data-service="Facial" data-price="799">
+                            <i class="fas fa-shopping-cart"></i> <!-- Cart icon -->
+                        </button>
+                    </div>
+                </div>
+        
+                <!-- Clean up -->
+                <div class="length-item">
+                    <img src="pic.jpg" alt="Clean up" class="length-img">
+                    <div class="service-info">
+                        <p>Clean up</p>
+                        <button class="add-to-cart" data-service="Clean up" data-price="499">
+                            <i class="fas fa-shopping-cart"></i> <!-- Cart icon -->
+                        </button>
+                    </div>
+                </div>
+        
+                <!-- Bleach & Detan -->
+                <div class="length-item">
+                    <img src="pic.jpg" alt="Bleach & Detan" class="length-img">
+                    <div class="service-info">
+                        <p>Bleach & Detan</p>
+                        <button class="add-to-cart" data-service="Bleach & Detan" data-price="700">
+                            <i class="fas fa-shopping-cart"></i> <!-- Cart icon -->
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+     <!-- Cart Button -->
+    <button class="cart-button">
+        <i class="fas fa-shopping-cart"></i>
+    </button>
+    <script src="script.js"></script>
+
+        <section class="flex" >
+            <section class="services2">
+                <div class="productsbox">
+                    <h1>The Best Brands we prefer to use in 1-time use packs:</h1><br><br>
+                </div>
+                <div class="productsgrid1">
+                    <div class="p1 grid1"><img class="img1" src="loreal.jpg" alt="Loreal"></div>
+                    <div class="p1 grid2"><img class="img1" src="kenra.jpeg" alt="Kenra"></div>
+                    <div class="p1 grid3"><img class="img1" src="redken.png" alt="Redken"></div>
+                    <div class="p1 grid4"><img class="img1" src="lotus.png" alt="Lotus"></div>
+                    <div class="p1 grid5"><img class="img1" src="olay.jpg" alt="Olay"></div>
+                    <div class="p1 grid6"><img class="img1" src="biotique.jpg" alt="Biotique"></div>
+                </div>
+            </section>
+
+            <section class="safety">
+                <div class="safetyheading">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lush Life's Safety Standards:</div>
+                <div class="safetygrid">
+                    <div class="safe 1"><img class="img2" src="saniti.png" alt="Sanitizer">
+                        <div class="content">Sanitized Kits and Beauticians</div>
+                    </div>
+                    <div class="safe 1"><img class="img2" src="thermometer.png" alt="Temperature Check">
+                        <div class="content">Temperature Check</div>
+                    </div>
+                    <div class="safe 2"><img class="img2" src="sirenje.png" alt="Vaccinated Staff">
+                        <div class="content">Vaccinated Staff</div>
+                    </div>
+                    <div class="safe 2"><img class="img2" src="products.png" alt="one-time use products">
+                            <div class="content">one-time use products</div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+        
+<!--Contact-->
+<div class="contact" id="contact">
+    <div class="contact-logo">
+        <img src="logo.jpg" alt="logo" style="height: 30px;width: 30px;">
+    </div>
+    <div class="contact-content">
+    <br>Lush Life is a leading salon at home services in India.estabilised at 2024 and currently operating in more than 25 cities across the country. <br><br>
+    A &copy;&nbsp;2024 Lush LifeA rights reserved.<br>
+   <br> Connect with us:<br><br>
+   <p><i class="fa-solid fa-location-dot"></i>57,anna nagar,chennai.</p><br>
+   <p><i class="fa-solid fa-phone"></i>9876543210</p><br>
+   <p><i class="fa-regular fa-envelope"></i>lushlife@gmail.com</p><br>
+   <p><i class="fa-brands fa-instagram"></i>lushlife</p><br>
+</div>
+</div>
+</div>
+    </div>
+   <!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <div class="logo">
+                <img src="logo.png" alt="Logo" style="height: 30px;">
+            </div>
+            <p>Home Salon is a leading salon-at-home service in India, established in 2018 and currently operating in more than 25+ cities across the country.</p>
+            <p>&copy; 2024 HOME SALON. All rights reserved.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Connect with Us!</h3>
+            <p><strong><i class="fa-solid fa-map-location"></i></strong> 3a/27, Negi Road, Karanpur, Dehradun, Uttarakhand (248001)</p>
+            <p><strong><i class="fa-solid fa-phone"></i></strong> +91 - 7017060171</p>
+            <p><strong><i class="fa-solid fa-envelope"></i></strong> info@homesalon.in</p>
+           
+        </div>
+
+        <div class="footer-section">
+            <h3>POLICY INFO</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms OF Sale</a></li>
+                <li><a href="#">Terms OF Use</a></li>
+                <li><a href="#">Reports abuse & Takedown Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>COMPANY</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Core Values</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Home Salon Beauty School</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section need-help">
+            <h3>Need Help?</h3>
+            <ul>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </div>
+        
+    </div>
+</footer>

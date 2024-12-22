@@ -1,0 +1,99 @@
+/* Reset the body margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the booking section */
+.booking {
+    background-color: rgb(182, 177, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Full viewport height for centering */
+    justify-content: center; /* Center the content vertically */
+    margin: 0; /* Remove default margin */
+    padding-top: 0; /* Remove top padding */
+    margin-top: -40px; /* Remove space at the top */
+}
+
+/* Style for the booking heading */
+.booking h1 {
+    margin-bottom: 40px; /* Space below the heading */
+    font-size: 2rem; /* Adjust heading size */
+    padding-top: 0; /* Avoid top space */
+    padding-bottom: 40px;
+    margin-top: 0; /* Ensure no top margin */
+}
+
+/* Center the form */
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Align labels to the right */
+.left-form {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.left-form label {
+    margin-bottom: 20px; /* Space between labels */
+    font-size: 1.2rem; /* Adjust label font size */
+    line-height: 60px; /* Adjust spacing between form items */
+}
+
+/* Style the right form with input fields */
+.right-form input {
+    padding: 10px;
+    width: 250px; /* Input field width */
+    margin-bottom: 20px; /* Space between input fields */
+    font-size: 1rem; /* Adjust font size */
+}
+/* Style for the button container */
+.buttons {
+    display: flex;
+    justify-content: space-between; /* Space out elements (Cart and Checkout) */
+    align-items: center;
+    width: 100%; /* Full width of the container */
+    padding: 20px 50px; /* Padding around the container */
+    box-sizing: border-box;
+}
+/* Your Cart text on the left */
+.your-cart h1 {
+    margin: 0; /* Remove any default margin */
+    font-size: 1.2rem; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    line-height: 2; /* Increase height (adjust as necessary) */
+    margin-top: 40px; /* Adjust this value to align with the button */
+}
+
+
+
+/* Checkout button on the right */
+.checkout {
+    background-color: black; /* Black background color */
+    color: white; /* White text color */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   
+    margin-right: 60px;
+    padding-bottom: 10px;
+    margin-top: 60px; /* Adjust this value to bring the button down */
+}
+/* Your Cart text on the left */
+.your-cart {
+    margin: 0; /* Remove any default margin */
+    font-size: 1.2rem; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    line-height: 2; /* Increase height (adjust as necessary) */
+    margin-top: 30px; /* Adjust this value to bring it down */
+}
